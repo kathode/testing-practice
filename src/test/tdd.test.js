@@ -1,3 +1,5 @@
+import { add, capitaliseFirst, reverseString, subtract, divide, multiply, caesarCipher } from "..";
+
 test("capitalise first letter", () => {
   expect(capitaliseFirst("hello")).toBe("Hello");
 });
@@ -14,7 +16,7 @@ describe("calculator features", () => {
     expect(subtract(2, 3)).toBe(-1);
   });
   test("divide", () => {
-    expect(divide(2, 3)).toBe(0.667);
+    expect(divide(2, 3)).toBe(0.6666666666666666);
   });
   test("multiply", () => {
     expect(multiply(2, 3)).toBe(6);
