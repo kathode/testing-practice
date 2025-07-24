@@ -1,4 +1,4 @@
-import { add, capitaliseFirst, reverseString, subtract, divide, multiply, caesarCipher } from "..";
+import { add, capitaliseFirst, reverseString, subtract, divide, multiply, caesarCipher, anaylzeArray } from "..";
 
 test("capitalise first letter", () => {
   expect(capitaliseFirst("hello")).toBe("Hello");
